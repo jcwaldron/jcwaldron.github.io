@@ -61,20 +61,10 @@ p {
 	border-top: 1px solid #387780;
 }
 
-div {
-  width: 300px;
-  background-color: #BBD2D3;
-  margin: auto;
-  padding: 20px;
-}
-
-.align-center {
-	text-align: center;
-	}
 	
 .listcenter {
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 footer {
