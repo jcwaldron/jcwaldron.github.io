@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
 header {
   height: 120px;
@@ -10,7 +10,7 @@ h1, h2, h3, p, nav, footer {
   }
   
 h1 {
-  font-family: "Almendra Display", cursive;
+  font-family: "Almendra SC", cursive;
   text-align: center
   }
 
