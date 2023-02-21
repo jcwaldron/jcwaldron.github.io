@@ -29,3 +29,7 @@ img {
   align: center;
   border-radius: 50%;
   }
+  
+  hr.style1{
+	border-top: 1px solid #387780;
+}
