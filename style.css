@@ -49,3 +49,7 @@ article {
   margin: auto;
   padding: 20px;
 }
+
+.align-center {
+	text-align: center;
+	}
