@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
-a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
-a:active  { color: pink;  }
+a:link    { color: #BBD2D3;  }
+a:visited { color: #9497B9;   }
+a:hover   { color: #CFC8CD; }
+a:active  { color: #9BCCD3;  }
 
 header {
   height: 150px;
