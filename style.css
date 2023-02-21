@@ -62,7 +62,7 @@ p {
 }
 
 	
-.listcenter {
+ul, ol, li {
   display: inline-block;
   text-align: center;
 }
