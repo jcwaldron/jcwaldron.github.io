@@ -4,11 +4,11 @@ header {
 }  
 
 h1, h2, h3, p, nav, footer {
-  font-color: #2B2D42;
+  color: #2B2D42;
   }
   
 h1, h2, h3 {
-  font-face: "Jim Nightshade", cursive;
+  font-face: "Jim Nightshade", "Almendra SC", cursive;
   text-align: center
   }
 
