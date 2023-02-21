@@ -65,6 +65,8 @@ p {
 ul, ol, li {
   text-align: left;
   list-style: inside;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
 }
 
 footer {
