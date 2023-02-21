@@ -21,6 +21,11 @@ body {
 	background-color: #F5E2C8;
 }
 
+main {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
 h1, h2, h3, p, nav, footer {
   color: #2B2D42;
   text-align: center;
