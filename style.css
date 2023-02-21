@@ -7,6 +7,8 @@
 header {
   height: 120px;
   background-color: #66999B;
+  margin: 0;
+  padding: 50px;
 }  
 
 h1, h2, h3, p, nav, footer {
