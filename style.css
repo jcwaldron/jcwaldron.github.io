@@ -78,8 +78,10 @@ div {
 }
 
 footer {
-  background-color: #2E6168!important;
+  margin: 0;
+  padding: 20px;
+  background-color: #2E6168;
   text-align: center;
-  text-color: #BBD2D3!important;
+  text-color: #BBD2D3;
 }
 	
