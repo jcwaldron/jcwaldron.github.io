@@ -68,10 +68,12 @@ p {
 }
 
 footer {
-  margin: 0;
-  padding: 20px;
-  background-color: #2E6168;
-  text-align: center;
-  text-color: #BBD2D3;
+  height: 50px;
+  background-color: #66999B;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding: 15px;
 }
 	
