@@ -1,14 +1,14 @@
 header {
   height: 120px;
-  background-color: #F5E2C8;
+  background-color: #66999B;
 }  
 
 h1, h2, h3, p, nav, footer {
   color: #2B2D42;
   }
   
-h1, h2, h3 {
-  font-family: "Almendra", cursive;
+h1 {
+  font-family: "Almendra SC", fantasy;
   text-align: center
   }
 
