@@ -1,0 +1,11 @@
+h1, h2, h3, p {
+  font-color: #2B2D42;
+  }
+  
+h1, h2, h3 {
+  text-align: center
+  }
+
+p {
+  text-align: left
+  }
