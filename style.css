@@ -8,7 +8,7 @@ h1, h2, h3, p, nav, footer {
   }
   
 h1, h2, h3 {
-  font-face: "Jim Nightshade", "Almendra SC", cursive;
+  font-family: "Jim Nightshade", "Almendra SC", cursive;
   text-align: center
   }
 
