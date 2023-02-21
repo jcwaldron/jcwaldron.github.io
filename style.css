@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Dosis:wght@300&family=Jim+Nightshade&display=swap');
+
 
 a:link    { color: #BBD2D3;  }
 a:visited { color: #1E4045;   }
@@ -34,10 +36,7 @@ h2, h3 {
 
 nav {
   background-color: #66999B;
-	}
-
-nav.link {
-	  font-family: Tahoma, sans-serif;
+  font-family: Dosis, sans-serif
 	}
 	
 p {
