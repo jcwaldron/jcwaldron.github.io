@@ -10,9 +10,12 @@ h1, h2, h3, p, nav, footer {
   }
   
 h1 {
-  font-family: "Almendra SC", cursive;
+  font-family: "Almendra", cursive;
   text-align: center
   }
+
+h2, h3 {
+  font-family: "Jim Nightshade", cursive;
 
 nav {
   background-color: #66999B;
