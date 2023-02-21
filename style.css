@@ -21,13 +21,7 @@ header {
   margin-bottom: 20px;
   margin-left: 0;
   padding: 15px;
-}  
-
-body {
-	background-color: #F5E2C8;
-	font-family: Dosis, sans-serif;
-	font-weight: bold;
-}
+} 
 
 main {
 	padding-left: 500px;
@@ -54,7 +48,8 @@ nav {
 	
 p {
   text-align: left;
-	font-family: Tahoma, sans-serif;
+	font-family: Dosis, sans-serif;
+	font-weight: bold;
   }
   
   hr.style1 {
@@ -68,6 +63,7 @@ ul, ol, li {
 }
 
 footer {
+  color: #2B2D42;
   height: 50px;
   background-color: #66999B;
   margin-top: 20px;
