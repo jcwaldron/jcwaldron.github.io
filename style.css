@@ -24,8 +24,8 @@ body {
 }
 
 main {
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 500px;
+	padding-right: 500px;
 }
 
 h1, h2, h3, p, nav, footer {
@@ -63,5 +63,9 @@ div {
 }
 
 .align-center {
+	text-align: center;
+	}
+	
+ul {
 	text-align: center;
 	}
