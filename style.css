@@ -19,7 +19,6 @@ header {
   margin-bottom: 20px;
   margin-top: 0;
   padding: 15px;
-  width: 100%;
 } 
 
 body {
@@ -81,7 +80,6 @@ footer {
   height: 30px;
   padding: 0;
   text-align: center;
-  width: 100%;
 }
 
 footer div {
