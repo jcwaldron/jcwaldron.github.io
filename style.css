@@ -16,11 +16,7 @@ a:active  { color: #9BCCD3;  }
 header {
   height: 150px;
   background-color: #66999B;
-  margin-top: 0;
-  margin-right: 0;
   margin-bottom: 20px;
-  margin-left: 0;
-  padding: 15px;
 } 
 
 body {
@@ -80,7 +76,6 @@ ul, ol, li {
 footer {
   color: #2B2D42;
   height: 30px;
-  margin-top: 0;
   padding: 0;
   text-align: center;
 }
