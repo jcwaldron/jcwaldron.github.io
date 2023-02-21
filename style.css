@@ -23,6 +23,10 @@ header {
   padding: 15px;
 } 
 
+body {
+	text-align: center;
+}
+
 main {
 	padding-left: 500px;
 	padding-right: 500px;
