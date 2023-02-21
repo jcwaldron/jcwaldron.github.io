@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
+* {
+   box-sizing: border-box;
+  }
+
 header {
   height: 120px;
   background-color: #66999B;
