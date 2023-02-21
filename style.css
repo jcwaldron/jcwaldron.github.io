@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
 header {
-  height: 120px;
+  height: 200px;
   background-color: #66999B;
   margin: 0;
-  padding: 50px;
+  padding: 20px;
 }  
 
 h1, h2, h3, p, nav, footer {
