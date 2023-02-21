@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+
 header {
   height: 120px;
   background-color: #66999B;
@@ -8,7 +10,7 @@ h1, h2, h3, p, nav, footer {
   }
   
 h1 {
-  font-family: "Almendra SC", fantasy;
+  font-family: "Almendra Display", cursive;
   text-align: center
   }
 
