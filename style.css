@@ -72,9 +72,10 @@ div {
 	text-align: center;
 	}
 	
-li {
-	text-align: center;
-	}
+listcenter {
+  display: inline-block;
+  text-align: left;
+}
 
 footer {
 	background-color: #66999B;
