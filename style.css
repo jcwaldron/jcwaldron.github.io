@@ -77,9 +77,9 @@ div {
   text-align: left;
 }
 
-.footer {
-  background-color: #2E6168;
+footer {
+  background-color: #2E6168!important;
   text-align: center;
-  text-color: #BBD2D3;
+  text-color: #BBD2D3!important;
 }
 	
