@@ -34,15 +34,15 @@ h2, h3 {
 
 nav {
   background-color: #66999B;
-  font-family: Tahoma, sans-serif;
 	}
+
+nav.link {
+	  font-family: Tahoma, sans-serif;
+	}
+	
 p {
   text-align: left;
 	font-family: Tahoma, sans-serif;
-  }
-  
-img.rounded {
-  border-radius: 30px;
   }
   
   hr.style1 {
