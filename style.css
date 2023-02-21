@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
 header {
   height: 150px;
   background-color: #66999B;
@@ -35,7 +40,7 @@ p {
   text-align: left
   }
   
-img.rounded {
+.rounded {
   border-radius: 30px;
   }
   
