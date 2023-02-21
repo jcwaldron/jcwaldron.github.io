@@ -1,4 +1,9 @@
-h1, h2, h3, p {
+header {
+  height: 120px;
+  background-color: #66999B;
+}  
+
+h1, h2, h3, p, nav, footer {
   font-color: #2B2D42;
   }
   
@@ -6,6 +11,9 @@ h1, h2, h3 {
   font-face: "Jim Nightshade", cursive;
   text-align: center
   }
+
+nav {
+  background-color: #66999B;
 
 p {
   text-align: left
