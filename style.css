@@ -17,6 +17,8 @@ header {
   height: 150px;
   background-color: #66999B;
   margin-bottom: 20px;
+  padding: 15px;
+  width: device-width;
 } 
 
 body {
