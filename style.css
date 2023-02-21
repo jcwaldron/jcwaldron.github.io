@@ -8,9 +8,9 @@ a:hover   { color: #CFC8CD; }
 a:active  { color: #9BCCD3;  }
 
 .button{
-    border-radius: 5px;;
+    border-radius: 5px;
     padding: 10px;
-    background: #232536;
+    background: #2E6168;
 }
 
 header {
