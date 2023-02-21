@@ -65,11 +65,12 @@ ul, ol, li {
 footer {
   color: #2B2D42;
   height: 50px;
-  background-color: #66999B;
   margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  padding: 0;
+}
+
+footer > div {
+  background-color: #66999B;
   padding: 15px;
 }
 	
