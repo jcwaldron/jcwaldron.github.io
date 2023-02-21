@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Jim+Nightshade&display=swap');
 
 header {
-  height: 175px;
+  height: 150px;
   background-color: #66999B;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 20px;
   margin-left: 0;
-  padding: 20px;
+  padding: 15px;
 }  
 
 body {
@@ -41,4 +41,11 @@ img.rounded {
   
   hr.style1 {
 	border-top: 1px solid #387780;
+}
+
+article {
+  width: 300px;
+  background-color: #BBD2D3;
+  margin: auto;
+  padding: 20px;
 }
