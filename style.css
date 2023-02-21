@@ -24,3 +24,8 @@ nav {
 p {
   text-align: left
   }
+  
+img {
+  align: center;
+  border-radius: 50%;
+  }
