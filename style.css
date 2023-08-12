@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Dosis&family=Noto+Serif:wght@300&display=swap');
 
 
 a:link    { color: #BBD2D3;  }
@@ -42,12 +42,12 @@ h1, h2, h3, p, nav {
   }
   
 h1 {
-  font-family: 'Noto Serif', serif;
+  font-family: Almendra, cursive;
   text-align: center
   }
 
 h2, h3 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 	
 nav {
