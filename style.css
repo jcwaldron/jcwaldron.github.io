@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+Display&family=Almendra+SC&family=Dosis:wght@600&family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Noto+Serif:wght@300&display=swap');
 
 
 a:link    { color: #BBD2D3;  }
@@ -42,12 +42,12 @@ h1, h2, h3, p, nav {
   }
   
 h1 {
-  font-family: "Almendra", cursive;
+  font-family: 'Noto Serif', serif;
   text-align: center
   }
 
 h2, h3 {
-  font-family: "Almendra SC", cursive;
+  font-family: 'Noto Serif', serif;
 }
 	
 nav {
