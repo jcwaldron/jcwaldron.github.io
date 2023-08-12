@@ -26,8 +26,23 @@ body {
 }
 
 main {
-  width: 850px;
+  width: 800px;
   margin: auto;
+  display: flex;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.portfolio {
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div { 
@@ -89,8 +104,8 @@ footer div {
   text-align: center;
 }
 
-main {
-  display: flex;
+.portfolio {
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -98,5 +113,15 @@ main {
   display: block;
   width: 500px;
 }
+
+.portfolio {
+  width: 90%;
 }
+
+.left-side {
+  width: 90%;
+}
+
+}
+
 
