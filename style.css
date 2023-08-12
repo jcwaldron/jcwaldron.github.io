@@ -10,7 +10,7 @@ a:active  { color: #9BCCD3;  }
 .button{
     border-radius: 5px;
     padding: 10px;
-    background: #386061;
+    background: #66999B;
 }
 
 header {
@@ -26,7 +26,7 @@ body {
 }
 
 main {
-  width: 500px;
+  width: 850px;
   margin: auto;
 }
 
@@ -52,7 +52,8 @@ h2, h3 {
 	
 nav {
   background-color: #66999B;
-  font-family: Dosis, sans-serif
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
 	}
 	
 p {
@@ -87,4 +88,15 @@ footer div {
   padding: 15px;
   text-align: center;
 }
-	
+
+main {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+main {
+  display: block;
+  width: 500px;
+}
+}
+
