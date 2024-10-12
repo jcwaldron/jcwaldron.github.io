@@ -1,131 +1,114 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Dosis&family=Noto+Serif:wght@300&display=swap');
 
-
-a:link    { color: #BBD2D3;  }
-a:visited { color: #1E4045;   }
+a:link    { color: #1E4045; }
+a:visited { color: #1E4045; }
 a:hover   { color: #CFC8CD; }
-a:active  { color: #9BCCD3;  }
+a:active  { color: #9BCCD3; }
 
-.button{
+.button {
     border-radius: 5px;
-    padding: 10px;
-    background: #66999B;
+    padding: 5px;
+    background: #8acdcf;
 }
 
 header, footer, main {
-  min-width: 320px;
+    min-width: 320px;
 }
 
 header {
-  height: 150px;
-  background-color: #66999B;
-  margin-bottom: 20px;
-  margin-top: 0;
-  padding: 15px;
-} 
+    height: 150px;
+    background-color: #66999B;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 15px;
+}
 
 body {
-	text-align: center;
-  min-width: 320px;
+    text-align: center;
+    min-width: 320px;
 }
 
 main {
-  width: 100%; 
-  max-width: 800px; 
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 800px; 
+    margin: auto;
+    display: flex;                      /* Flexbox layout */
+    align-items: flex-start;            /* Align items to the top */
 }
 
 .left-side, .portfolio {
-  width: 100%; 
-  max-width: 400px; 
-  margin: auto;
-  flex-shrink: 0;
-}
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    flex: 1;                            /* Allow both sections to grow equally */
+    max-width: 400px;                  /* Set max width for both sections */
+    margin: 10px;                      /* Add some margin */
 }
 
 div { 
-	text-align: center; 
-	font-family: Dosis, sans-serif;
-	color: #2B2D42;
+    text-align: center; 
+    font-family: Dosis, sans-serif;    /* Preserved font */
+    color: #2B2D42;
 }
 
 h1, h2, h3, p, nav {
-  color: #2B2D42;
-  text-align: center;
-  }
-  
+    color: #2B2D42;
+    text-align: center;
+}
+
 h1 {
-  font-family: Almendra, cursive;
-  text-align: center
-  }
+    font-family: Almendra, cursive;    /* Preserved font */
+}
 
 h2, h3 {
-  font-family: "Noto Serif", serif;
-}
-	
-nav {
-  background-color: #66999B;
-  font-family: Dosis, sans-serif;
-  font-weight: bold;
-	}
-	
-p {
-  text-align: center;
-	font-family: Dosis, sans-serif;
-	font-weight: bold;
-  }
-  
-  hr.style1 {
-	border-top: 1px solid #387780;
-	margin: 10px;
+    font-family: "Noto Serif", serif;   /* Preserved font */
 }
 
-	
+nav {
+    background-color: #66999B;
+    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-weight: bold;
+    padding: 5px;
+}
+
+hr.style1 {
+    border-top: 1px solid #387780;
+    margin: 10px;
+}
+
 ul, ol, li {
-  text-align: left;
-  list-style: inside;
-  font-family: Dosis, sans-serif;
-  font-weight: bold;
-  color: #2B2D42;
+    text-align: left;
+    list-style: inside;
+    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-weight: bold;
+    color: #2B2D42;
+    text-indent: -20px;                /* Negative indent for bullets */
+    margin-bottom: 5px;                /* Spacing between bullet points */
 }
 
 footer {
-  color: #2B2D42;
-  height: 30px;
-  padding: 0;
-  text-align: center;
+    color: #2B2D42;
+    height: 30px;
+    padding: 0;
+    text-align: center;
 }
 
 footer div {
-  background-color: #66999B;
-  padding: 15px;
-  text-align: center;
+    background-color: #66999B;
+    padding: 15px;
+    text-align: center;
 }
 
-.portfolio {
-  padding-right: 20px;
-}
-
+/* Media query for narrow screens */
 @media screen and (max-width: 800px) {
-  main {
-    display: block;
-    width: 100%;
-  }
+    main {
+        flex-direction: column;        /* Stack items vertically */
+    }
 
-  .portfolio, .left-side {
-    width: 100%; 
-    padding: none;
-  }
-
+    .left-side, .portfolio {
+        max-width: 100%;               /* Full width on small screens */
+    }
 }
-
-
