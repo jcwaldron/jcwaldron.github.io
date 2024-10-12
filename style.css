@@ -13,6 +13,10 @@ a:active  { color: #9BCCD3;  }
     background: #66999B;
 }
 
+header, footer, main {
+  min-width: 320px;
+}
+
 header {
   height: 150px;
   background-color: #66999B;
@@ -23,21 +27,24 @@ header {
 
 body {
 	text-align: center;
+  min-width: 320px;
 }
 
 main {
-  width: 800px;
+  width: 100%; 
+  max-width: 800px; 
   margin: auto;
   display: flex;
+  flex-wrap: wrap; 
 }
 
-.left-side {
-  width: 50%;
+.left-side, .portfolio {
+  width: 100%; 
+  max-width: 400px; 
+  margin: auto;
+  flex-shrink: 0;
 }
 
-.portfolio {
-  width: 50%;
-}
 
 .center {
   display: block;
@@ -109,18 +116,15 @@ footer div {
 }
 
 @media screen and (max-width: 800px) {
-main {
-  display: block;
-  width: 500px;
-}
+  main {
+    display: block;
+    width: 100%;
+  }
 
-.portfolio {
-  width: 90%;
-}
-
-.left-side {
-  width: 90%;
-}
+  .portfolio, .left-side {
+    width: 100%; 
+    padding: none;
+  }
 
 }
 
