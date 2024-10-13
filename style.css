@@ -15,6 +15,7 @@ button {
     background-color: #1E4045;
     color: white;
     border-radius: 25px;
+    margin-top: 8px;
 }
 
 header, footer, main {
@@ -22,7 +23,7 @@ header, footer, main {
 }
 
 header {
-    height: 150px;
+    height: 160px;
     background-color: #66999B;
     color: #2B2D42;
     margin-bottom: 20px;
