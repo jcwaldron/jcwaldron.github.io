@@ -42,19 +42,19 @@ main {
     width: 100%; 
     max-width: 800px; 
     margin: auto;
-    display: flex;                      /* Flexbox layout */
-    align-items: flex-start;            /* Align items to the top */
+    display: flex;  
+    align-items: flex-start;
 }
 
 .left-side, .portfolio {
-    flex: 1;                            /* Allow both sections to grow equally */
-    max-width: 400px;                  /* Set max width for both sections */
-    margin: 10px;                      /* Add some margin */
+    flex: 1; 
+    max-width: 400px;
+    margin: 10px;   
 }
 
 div { 
     text-align: center; 
-    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-family: Dosis, sans-serif;    
     color: #2B2D42;
 }
 
@@ -81,7 +81,7 @@ nav .links {
 
 p {
     text-align: center;
-    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-family: Dosis, sans-serif;   
     font-weight: bold;
     padding: 5px;
 }
@@ -94,7 +94,7 @@ hr.style1 {
 ul, ol, li {
     text-align: left;
     list-style: inside;
-    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-family: Dosis, sans-serif;    
     font-weight: bold;
     color: #2B2D42;
     text-indent: -20px;                /* Negative indent for bullets */
@@ -159,17 +159,16 @@ body.dark-mode a:visited,
 body.dark-mode a:hover,
 body.dark-mode a:active {
   color: white;
-  /* background-color: #121212; */
 }
 
 
 /* Media query for narrow screens */
 @media screen and (max-width: 800px) {
     main {
-        flex-direction: column;        /* Stack items vertically */
+        flex-direction: column;       
     }
 
     .left-side, .portfolio {
-        max-width: 100%;               /* Full width on small screens */
+        max-width: 100%;             
     }
 }

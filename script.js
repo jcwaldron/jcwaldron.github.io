@@ -1,6 +1,8 @@
+// A function to toggle dark mode on and off, changing the look of the button when toggling.
+
 function toggleDarkMode() {
     var bodyElement = document.querySelector('body');
-    var buttonElement = document.querySelector('button'); // Select the button
+    var buttonElement = document.querySelector('button'); 
 
     // Toggle the 'dark-mode' class on the body element
     if (bodyElement) {
