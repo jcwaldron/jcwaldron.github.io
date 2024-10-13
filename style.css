@@ -64,16 +64,17 @@ h1, h2, h3, p, nav {
 }
 
 h1 {
-    font-family: Almendra, cursive;    /* Preserved font */
+    font-family: Almendra, cursive;    
+    font-weight: 400;
 }
 
 h2, h3 {
-    font-family: "Noto Serif", serif;   /* Preserved font */
+    font-family: "Noto Serif", serif;  
 }
 
 nav .links {
     background-color: #66999B;
-    font-family: Dosis, sans-serif;    /* Preserved font */
+    font-family: Dosis, sans-serif;   
     font-weight: bold;
     color: #2B2D42;
 }
