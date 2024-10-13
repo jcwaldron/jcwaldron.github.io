@@ -65,7 +65,7 @@ h1, h2, h3, p, nav {
 
 h1 {
     font-family: Almendra, cursive;    
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 h2, h3 {
