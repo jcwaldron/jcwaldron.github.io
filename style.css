@@ -11,6 +11,11 @@ a:active  { color: #9BCCD3; }
     background: #8acdcf;
 }
 
+button {
+    background-color: #1E4045;
+    color: white;
+}
+
 header, footer, main {
     min-width: 320px;
 }
@@ -18,6 +23,7 @@ header, footer, main {
 header {
     height: 150px;
     background-color: #66999B;
+    color: #2B2D42;
     margin-bottom: 20px;
     margin-top: 0;
     padding: 15px;
@@ -26,6 +32,8 @@ header {
 body {
     text-align: center;
     min-width: 320px;
+    color: #2B2D42;
+    background-color: white;
 }
 
 main {
@@ -61,10 +69,11 @@ h2, h3 {
     font-family: "Noto Serif", serif;   /* Preserved font */
 }
 
-nav {
+nav .links {
     background-color: #66999B;
     font-family: Dosis, sans-serif;    /* Preserved font */
     font-weight: bold;
+    color: #2B2D42;
 }
 
 p {
@@ -101,6 +110,55 @@ footer div {
     padding: 15px;
     text-align: center;
 }
+
+/* DARK MODE */
+
+.toggles {
+    display: flex;
+    background-color: #66999B;
+}
+
+body.dark-mode header, 
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode nav,
+body.dark-mode footer div,
+body.dark-mode footer div p,
+body.dark-mode div.links,
+body.dark-mode .button,
+body.dark-mode .toggles {
+    color: white; 
+    background-color: #375253;
+    font-weight: 400;
+}
+
+body.dark-mode,
+body.dark-mode main, 
+body.dark-mode div,
+body.dark-mode p,
+body.dark-mode .portfolio h2,
+body.dark-mode .left-side h2 {
+  background-color: #121212;
+  color: white;
+  font-weight: 400;
+}
+
+body.dark-mode ul,
+body.dark-mode li {
+  background-color: #121212;
+  color: white;
+  font-weight: 400;
+}
+
+body.dark-mode a:link,
+body.dark-mode a:visited,
+body.dark-mode a:hover,
+body.dark-mode a:active {
+  color: white;
+  /* background-color: #121212; */
+}
+
 
 /* Media query for narrow screens */
 @media screen and (max-width: 800px) {
