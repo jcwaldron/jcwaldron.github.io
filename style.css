@@ -64,12 +64,12 @@ h1, h2, h3, p, nav {
 }
 
 h1 {
-    font-family: Almendra, cursive;    
+    font-family: Almendra, sans-serif;    
     /* font-weight: 400; */
 }
 
 h2, h3 {
-    font-family: "Noto Serif", serif;  
+    font-family: "Noto Serif", sans-serif;  
 }
 
 nav .links {

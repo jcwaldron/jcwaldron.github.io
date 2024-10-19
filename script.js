@@ -5,15 +5,19 @@ function toggleDarkMode() {
     var headerElement = document.querySelector('header');
 
     // Ensure 'nineties-mode' is removed before toggling 'dark-mode'
-    if (bodyElement.classList.contains('nineties-mode')) {
-        bodyElement.classList.remove('nineties-mode');
-    }   
+    try {   
+         if (bodyElement.classList.contains('nineties-mode')) {
+                bodyElement.classList.remove('nineties-mode');
+                }   
 
-     // Toggle the 'dark-mode' class on the body element
-        bodyElement.classList.toggle('dark-mode');
-        headerElement.classList.remove('nineties-mode')
-        darkSwitch();
-        ninetiesSwitch();
+    // Toggle the 'dark-mode' class on the body element
+            bodyElement.classList.toggle('dark-mode');
+            headerElement.classList.remove('nineties-mode')
+            darkSwitch();
+            // ninetiesSwitch();
+            } catch(error) {
+                throw "error.message";
+            }   
     }
 
 function darkSwitch(){
@@ -21,6 +25,7 @@ function darkSwitch(){
     var darkButton = document.getElementsByClassName('dark-button')[0]; 
 
         // Update button text based on whether dark mode is active
+    try {
         if (bodyElement.classList.contains('dark-mode')) {
             darkButton.textContent = "☀️ Light Mode";
             darkButton.style.backgroundColor = "#86c6c9"
@@ -32,6 +37,9 @@ function darkSwitch(){
             darkButton.style.color = "white";
             darkButton.style.fontWeight = "normal";
         }
+    } catch(error) {
+        throw error.message;
+    }
 }
 
 // toggle for 90s mode
