@@ -23,7 +23,7 @@ header, footer, main {
 }
 
 header {
-    height: 160px;
+    height: 170px;
     background-color: #86c6c9;
     color: #2B2D42;
     margin-bottom: 20px;
@@ -124,7 +124,6 @@ footer div {
 body.dark-mode header, 
 body.dark-mode h1,
 body.dark-mode h2,
-body.dark-mode h3,
 body.dark-mode nav,
 body.dark-mode footer div,
 body.dark-mode footer div p,
@@ -140,6 +139,7 @@ body.dark-mode,
 body.dark-mode main, 
 body.dark-mode div,
 body.dark-mode p,
+body.dark-mode h3,
 body.dark-mode .portfolio h2,
 body.dark-mode .left-side h2 {
   background-color: #121212;
