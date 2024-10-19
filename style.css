@@ -18,6 +18,15 @@ button {
     margin-top: 8px;
 }
 
+#font-increase {
+    border-radius: 25px 0px 0px 25px;
+    margin-left: 2px;
+}
+
+#font-decrease {
+    border-radius: 0px 25px 25px 0px;
+}
+
 header, footer, main {
     min-width: 320px;
 }
