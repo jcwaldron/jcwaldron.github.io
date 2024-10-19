@@ -18,11 +18,12 @@
     <h1>Jessica Waldron, JD</h1>
     <h3>Full Stack Software Engineer</h3>
     <nav>
-      <div class="links">
+      <div class="links" id="links">
         <a href="mailto:jessica.c.waldron@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/jessica-c-waldron/">LinkedIn</a> | <a href="https://github.com/jcwaldron">GitHub</a>
       </div>
-      <div class="toggles">
-        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+      <div class="toggles" id="toggles">
+        <button class="dark-button" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+        <!-- <button class="nineties-button" onclick="toggle90sMode()">🌐 '90s Mode</button> -->
       </div>
     </nav>
   </header>
@@ -30,7 +31,7 @@
 <!-- MAIN -->
   <main>
     <div class="left-side">
-      <img src = "profile-image.jpg" width = 300 alt = "profile image" class="center">
+      <img src = "profile-image.jpg" width = 300 alt = "Portrait" class="center">
                                                                       
       <!-- INTRODUCTION -->
         <h2>Excited to meet you!</h2>
@@ -41,7 +42,6 @@
             <ol>
               <li>Innovative research systems</li>
               <li>Building accessible, user-friendly tools</li>
-              <li>Creating tools to meet accessibility needs</li>
               <li>Exploring machine learning solutions</li>
             </ol>
       <div>
@@ -87,8 +87,8 @@
 <!-- FOOTER -->
 
 <footer>
-  <div>
-    <p>I'm hosted with GitHub Pages.</p>
+  <div id = "footerdiv">
+    <p id = "footerp">I'm hosted with GitHub Pages.</p>
   </div>
 </footer>
 

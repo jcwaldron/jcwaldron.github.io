@@ -24,7 +24,7 @@ header, footer, main {
 
 header {
     height: 160px;
-    background-color: #66999B;
+    background-color: #86c6c9;
     color: #2B2D42;
     margin-bottom: 20px;
     margin-top: 0;
@@ -73,7 +73,7 @@ h2, h3 {
 }
 
 nav .links {
-    background-color: #66999B;
+    background-color: #86c6c9;
     font-family: Dosis, sans-serif;   
     font-weight: bold;
     color: #2B2D42;
@@ -109,7 +109,7 @@ footer {
 }
 
 footer div {
-    background-color: #66999B;
+    background-color: #86c6c9;
     padding: 15px;
     text-align: center;
 }
@@ -118,7 +118,7 @@ footer div {
 
 .toggles {
     display: flex;
-    background-color: #66999B;
+    background-color: #86c6c9;
 }
 
 body.dark-mode header, 
@@ -161,6 +161,27 @@ body.dark-mode a:active {
   color: white;
 }
 
+/* 90s MODE */
+
+body.nineties-mode,
+header.nineties-mode, 
+nav.nineties-mode,
+footer.nineties-mode,
+#footerdiv.nineties-mode,
+#footerp.nineties-mode,
+.links.nineties-mode,
+.toggles.nineties-mode {
+    background-image: url("nineties_background.jpg");
+    color: white;
+}
+
+body.nineties-mode main, 
+body.nineties-mode div,
+body.nineties-mode p,
+body.nineties-mode .portfolio h2,
+body.nineties-mode .left-side h2 {
+    color: white;
+}
 
 /* Media query for narrow screens */
 @media screen and (max-width: 800px) {
